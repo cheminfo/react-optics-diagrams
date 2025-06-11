@@ -79,20 +79,6 @@ export interface RayTraceResult {
 export type RayTraceResults = Array<RayTraceResult>;
 
 /**
- * Ticks are used to define the positions of tick marks on an axis.
- */
-export interface Ticks {
-  readonly min: number;
-  readonly max: number;
-
-  /**
-   * The distance between two adjacent ticks.
-   */
-  readonly step: number;
-  readonly positions: ReadonlyArray<number>;
-}
-
-/**
  * A bounding box is defined by its minimum x and y coordinates, as well as its width
  * and height.
  */

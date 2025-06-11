@@ -8,8 +8,21 @@ import {
   RayTraceResult,
   RayTraceResults,
   SystemSpec,
-  Ticks,
 } from '../types';
+
+/**
+ * Ticks are used to define the positions of tick marks on an axis.
+ */
+export interface Ticks {
+  readonly min: number;
+  readonly max: number;
+
+  /**
+   * The distance between two adjacent ticks.
+   */
+  readonly step: number;
+  readonly positions: ReadonlyArray<number>;
+}
 
 /**
  * Computes the square bounding box of ray intersections from a ray trace result.
@@ -116,7 +129,7 @@ function calcTickPositions(
 
   const tickCount = Math.round((niceMax - niceMin) / niceStep) + 1;
 
-  // If we have too few ticks, try a smaller nice number, which dependson maxTickCount
+  // If we have too few ticks, try a smaller nice number, which depends on maxTickCount
   if (tickCount < minTickCount) {
     return calcTickPositions(min, max, minTickCount, maxTickCount * 2);
   }

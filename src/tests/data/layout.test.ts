@@ -6,13 +6,13 @@ import {
   minimalDataBox,
   padBox,
   titlePosition,
+  Ticks,
 } from '../../data/layout';
 import {
   BoundingBox,
   FieldSpec,
   RayTraceResult,
   SystemSpec,
-  Ticks,
 } from '../../types';
 
 describe('dataBox', () => {
