@@ -1,6 +1,6 @@
 {
   "name": "react-optics-diagrams",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "React components for displaying optical design diagrams.",
   "homepage": "https://github.com/cheminfo/react-optics-diagrams#readme",
   "bugs": {

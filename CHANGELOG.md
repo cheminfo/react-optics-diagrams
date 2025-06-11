@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.2](https://github.com/cheminfo/react-optics-diagrams/compare/v3.0.1...v3.0.2) (2025-06-11)
+
+
+### Bug Fixes
+
+* Export RayIntersections type ([8a17525](https://github.com/cheminfo/react-optics-diagrams/commit/8a17525d4b1c2727947e2dc0c4ebd7df8e6e88db))
+
 ## [3.0.1](https://github.com/cheminfo/react-optics-diagrams/compare/v3.0.0...v3.0.1) (2025-06-11)
 
 
