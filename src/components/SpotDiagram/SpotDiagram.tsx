@@ -26,7 +26,7 @@ const defaultOptions: SpotDiagramOptions = {
   titleFractionalOffset: 0.07,
 };
 
-export interface SpotDiagramProps {
+interface SpotDiagramProps {
   rayTraceResult: RayTraceResult;
   dataBox?: BoundingBox;
   options?: SpotDiagramOptions;
@@ -85,3 +85,4 @@ const SpotDiagram = (props: SpotDiagramProps) => {
 };
 
 export default SpotDiagram;
+export type { SpotDiagramProps };

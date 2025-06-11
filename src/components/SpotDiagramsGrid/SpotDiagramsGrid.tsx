@@ -77,3 +77,4 @@ const SpotDiagramsGrid = (props: SpotDiagramsGridProps) => {
 };
 
 export default SpotDiagramsGrid;
+export type { SpotDiagramsGridProps };
