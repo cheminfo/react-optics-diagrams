@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/cheminfo/react-optics-diagrams/compare/v2.0.1...v3.0.0) (2025-06-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* Many helper types that were not intended for the public API have been removed from it.
+
+### Bug Fixes
+
+* Clean up public API ([7ca8d79](https://github.com/cheminfo/react-optics-diagrams/commit/7ca8d79ee2895194c0f691a1cbed118594b0a0b7))
+
 ## [2.0.1](https://github.com/cheminfo/react-optics-diagrams/compare/v2.0.0...v2.0.1) (2025-05-09)
 
 
