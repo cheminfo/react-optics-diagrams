@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/cheminfo/react-optics-diagrams/compare/v3.0.0...v3.0.1) (2025-06-11)
+
+
+### Bug Fixes
+
+* Export the props for the SpotDiagrams ([3c7f38b](https://github.com/cheminfo/react-optics-diagrams/commit/3c7f38b3e7a784934028ba9896786fd35a852c8b))
+
 ## [3.0.0](https://github.com/cheminfo/react-optics-diagrams/compare/v2.0.1...v3.0.0) (2025-06-11)
 
 
